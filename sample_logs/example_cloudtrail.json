@@ -1,0 +1,24 @@
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "EX_PRINCIPAL_ID",
+    "arn": "arn:aws:iam::123456789012:user/Alice",
+    "accountId": "123456789012",
+    "userName": "Alice"
+  },
+  "eventTime": "2025-09-15T09:28:05Z",
+  "eventSource": "signin.amazonaws.com",
+  "eventName": "ConsoleLogin",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "198.51.100.23",
+  "userAgent": "Mozilla/5.0",
+  "requestParameters": null,
+  "responseElements": {
+    "ConsoleLogin": "Failure"
+  },
+  "additionalEventData": {
+    "LoginTo": "https://console.aws.amazon.com/",
+    "MobileVersion": "No"
+  }
+}
